@@ -60,7 +60,8 @@
   text-decoration: none;
 }
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #eabd44;
+  color:black;
 }
 
 .dropdown-content {
@@ -90,4 +91,8 @@
 }
 .active {
   background-color: #04AA6D;
+}
+.torzs img {
+  max-width: 80%;
+  align-content: center;
 }
