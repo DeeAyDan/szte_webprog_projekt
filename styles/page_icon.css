@@ -1,0 +1,9 @@
+.profile_pic {
+    max-height: 20%;
+    min-height: 50px;
+    height: 20%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 1% 1% 0 0;
+  }
