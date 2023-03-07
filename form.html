@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/150_tablogo.png">
-    <title>R150 weboldal</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/page_icon.css">
+  <link rel="stylesheet" href="styles/page_content.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/dropdown.css">
+  <link rel="icon" href="img/150_tablogo.png">
+    <title>R150 Form</title>
 </head>
 <body>
-    <div>
-        <img class="profile_pic" src="img/150_white_logo.png" alt="Fenti logó" href="index.html">
+  <div class="navbar">
+    <div class="dropgomb">
+      <button class="navbar-gomb">Vonatok</button>
+      <div class="dropdown">
+        <a href="samu.html">Samu</a>
+        <a href="pupos.html">Púpos</a>           
+      </div>
     </div>
-    <div class="navbar">
-      <a class="active"  href="index.html">Főoldal</a>
-      <div class="dropdown"> <!--Ezt majd javítsd pls, hogy rendesen nézzen ki.-->
-        <button class="dropbtn">Vonatok 
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="samu.html">Samu</a>
-          <a href="pupos.html">Púpos</a>           
-        </div>
-        <a href="about.html">Rólunk</a>
-        <a href="contact.html">Elérhetőségek</a>
-      </div> 
-    </div>
+    <button class="navbar-gomb"><a href="index.html">Főoldal</a></button>
+    <button class="navbar-gomb"><a href="about.html">Rólunk</a></button>
+    <button class="navbar-gomb"><a href="contact.html">Elérhetőségek</a></button>
+  </div>
+  
+  <div>
+    <img class="profile_pic" src="img/150_white_logo.png" alt="Fenti logó" href="index.html">
+  </div>
+
     <div id="form_1" class="container">
         <div class="image">
             <img class="index_pic" id="form" src="img/form_logo_1.png" alt="Form">
