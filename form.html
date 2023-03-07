@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/150_tablogo.png">
+    <title>R150 weboldal</title>
+</head>
+<body>
+    <div>
+        <img class="profile_pic" src="img/150_white_logo.png" alt="Fenti logó" href="index.html">
+    </div>
+    <div class="navbar">
+      <a class="active"  href="index.html">Főoldal</a>
+      <div class="dropdown"> <!--Ezt majd javítsd pls, hogy rendesen nézzen ki.-->
+        <button class="dropbtn">Vonatok 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="samu.html">Samu</a>
+          <a href="pupos.html">Púpos</a>           
+        </div>
+        <a href="about.html">Rólunk</a>
+        <a href="contact.html">Elérhetőségek</a>
+      </div> 
+    </div>
+    <div id="form_1" class="container">
+        <div class="image">
+            <img class="index_pic" id="form" src="img/form_logo_1.png" alt="Form">
+        </div>
+        <div class="text1 ">
+            <h1>Űrlap a kedvenc vonatodról</h1>
+        </div>
+    </div>
+    <div class="torzs">
+      <form method="POST">
+        <fieldset id="form_2">
+          <legend>Személyes adatok</legend>
+          <label>Név: <input type="text" name="username" required/></label> <br/>
+          <label>Születési dátum: <input type="date" name="date-of-birth" min="1920-01-01"/></label> <br/>
+          <label>E-mail: <input type="email" name="email" /></label> <br/>
+          <p></p>
+          Kedvenc mozdonyod: <br>
+          <label>Mozdony neve: <input type="text" name="loc-name" required></label><br>
+          <p></p>
+          Mozdony hajtása:<br>
+          <label for="mode-1">Dízeles</label>
+          <input type="checkbox" id="mode-1" name="mode-1" value="diesel"/><br>
+          <label for="mode-2">Elektromos</label>
+          <input type="checkbox" id="mode-2" name="mode-2" value="electrical"/><br>
+          <label for="mode-3">Egyéb</label>
+          <input type="checkbox" id="mode-3" name="mode-3" value="other"/> <br>
+          <p></p>
+          <label>Miért ez a kedvenced?</label><br>
+          <textarea name="feedback" rows="5" cols="50" maxlength="200"
+          placeholder="Ide írd a válaszod"></textarea> <br/> <br/>
+          <input type="submit"/>
+          <input type="reset">
+        </fieldset>
+  
+      </form>
+    </div>
+    
+</body>
