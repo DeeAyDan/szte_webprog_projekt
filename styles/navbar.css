@@ -9,7 +9,7 @@
     
     .navbar-gomb:hover{
       scale: 1.2;
-      box-shadow: 0px 0px 10px 5px #feddbe;
+      box-shadow: 0px 5px 0px 0px #feddbe;
     }
     
     .navbar-gomb{
