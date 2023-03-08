@@ -4,6 +4,10 @@
     color:wheat
 }
 
+.blue-link {
+  color:aqua;
+}
+
 .torzs {
   margin-left: 10%;
   margin-right: 10%;
@@ -57,4 +61,13 @@
   display: table-cell;
   width: 100%;
   text-align: center;
+}
+
+.table_div{
+  display: grid;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 32px;
 }

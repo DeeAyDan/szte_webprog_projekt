@@ -9,9 +9,17 @@
     left: 0px;
     bottom: 0px;
     margin-bottom: 0px;
-    position: fixed;}
+    position: fixed;
+    margin-top: 32px;
+}
 
     #footer-link{
+        background-color: black;
+        text-decoration: none;
+        color: aqua;
+    }
+
+    .footer-p{
         background-color: black;
         text-decoration: none;
     }
