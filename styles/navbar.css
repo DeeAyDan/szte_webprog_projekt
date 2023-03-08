@@ -1,10 +1,10 @@
 .navbar {
     position: sticky;
-    margin: 1% 0 0 1%;
-    width: 85%;
+    width: 100%;
     top: 0;
     left: 0;
     height: 10%;
+    z-index: 1;
     }
     
     .navbar-gomb:hover{

@@ -6,5 +6,21 @@
     }
     .container{
         display: block;
+        margin-top: 0px;
     }
+    .navbar-gomb{
+        margin-bottom: 3%;
+    }
+    .profile_pic{
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .dropdown{
+        margin-top: -3%;
+    }
+    .torzs p {
+        font-size: 3vw;
+      }
 }
