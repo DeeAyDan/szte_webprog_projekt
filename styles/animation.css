@@ -1,0 +1,15 @@
+@keyframes FadeInUp {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.index_pic{
+    animation: FadeInUp 1s ease forwards;
+}
