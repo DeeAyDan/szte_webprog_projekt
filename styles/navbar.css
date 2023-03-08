@@ -1,5 +1,5 @@
 .navbar {
-    position: absolute;
+    position: sticky;
     margin: 1% 0 0 1%;
     width: 85%;
     top: 0;
@@ -24,4 +24,9 @@
     
     .navbar a {
       text-decoration: none;
+    }
+
+    .active-navbar-button{
+      box-shadow: 0px 5px 0px 0px #ffb26b;
+      background-color: #00004D;
     }
