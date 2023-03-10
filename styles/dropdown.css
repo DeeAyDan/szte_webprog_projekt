@@ -24,7 +24,7 @@
   }
   
   .dropgomb {
-    display: inline;
+    display: inline-block;
   }
   
   .active {
