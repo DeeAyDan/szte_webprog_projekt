@@ -1,11 +1,17 @@
 * {
     font-family: Helvetica;
-    background-color: #00004D;
-    color:wheat;
+    color:#b0a08f;
+}
+
+body{
+  margin: 0;
+  background-color: #00004D;
 }
 
 .blue-link {
   color:aqua;
+  text-decoration: none;
+  background-color: #2c315f;
 }
 
 .torzs {
@@ -15,6 +21,8 @@
 .torzs p {
   font-size: 2vw;
   text-align: justify;
+  background-color: #141c5e;
+  padding: 2% 4% 2% 4%;
 }
 .container {
     display: grid;
@@ -70,4 +78,19 @@
   margin-left: 25%;
   margin-right: 25%;
   margin-bottom: 32px;
+}
+
+.table_header{
+  background-color: #141c5e;
+  padding: 5px;
+}
+
+.table_odd{
+  background-color: #2c315f;
+  padding: 5px;
+}
+
+.table_even{
+  background-color: #141c5e;
+  padding: 5px;
 }

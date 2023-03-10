@@ -27,6 +27,10 @@
     display: inline-block;
   }
   
-  .active {
-    background-color: #04AA6D;
+  .active_dropdown {
+    background-color: #145e42;
+  }
+
+  .inactive_dropdown {
+    background-color: #141c5e;
   }

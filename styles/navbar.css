@@ -1,4 +1,9 @@
+.navbar * {
+  font-weight: bold;
+}
+
 .navbar {
+    background-color: #00004D;
     position: sticky;
     width: 100%;
     top: 0;
@@ -13,8 +18,9 @@
     }
     
     .navbar-gomb{
+      background-color: #00004D;
       display: inline;
-      padding: 14px 16px;
+      padding: 20px 16px;
       text-align: center;
       font-size: 16px;
       transition-duration: 100ms;
