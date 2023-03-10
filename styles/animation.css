@@ -13,3 +13,19 @@
 .index_pic{
     animation: FadeInUp 1s ease forwards;
 }
+
+@keyframes rainbow_animation {
+    0%, 100%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 100% 0;
+    }
+}
+
+#footer_link{
+    background: linear-gradient(to right, #2020ff, #00e1ff , #00ff00, #bb005d, #3131ff);
+    background-clip: text;
+    animation: rainbow_animation 2s ease-in-out infinite;
+    background-size: 400% 100%;
+}

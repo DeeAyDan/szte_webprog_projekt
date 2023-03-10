@@ -12,10 +12,8 @@
     margin-top: 32px;
 }
 
-    #footer-link{
-        background-color: black;
+    #footer_link{
         text-decoration: none;
-        color: aqua;
     }
 
     .footer-p{

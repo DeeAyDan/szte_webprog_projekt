@@ -24,6 +24,17 @@ body{
   background-color: #141c5e;
   padding: 2% 4% 2% 4%;
 }
+
+/*p::before {
+  content: '';
+  display: block;
+  position:absolute;
+  width: 10px;
+  height: 100%;
+  background-color: #00004D;
+  transform: skew(45deg);
+} Ezzel kezdeni kell valamit*/
+
 .container {
     display: grid;
     align-items: center; 
