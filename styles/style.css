@@ -19,7 +19,7 @@ body{
   margin-right: 10%;
 }
 .torzs p {
-  font-size: 2vw;
+  font-size: clamp(1.2 rem, 1rem + 5 vw, 1.9rem);
   text-align: justify;
   background-color: #141c5e;
   padding: 2% 4% 2% 4%;
