@@ -29,3 +29,10 @@
     animation: rainbow_animation 2s ease-in-out infinite;
     background-size: 400% 100%;
 }
+
+.torzs a:hover {
+    background: linear-gradient(to right, #2020ff, #00e1ff , #00ff00, #bb005d, #3131ff);
+    background-clip: text;
+    animation: rainbow_animation 2s ease-in-out infinite;
+    background-size: 400% 100%;
+  }
