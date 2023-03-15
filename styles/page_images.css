@@ -22,7 +22,7 @@
   }
 
   .torzs img {
-    max-width: 80%;
+    max-width: 75%;
     align-content: center;
     border-radius: 3%;
     border: solid 10px #151c5e;
@@ -45,4 +45,9 @@
     display: table-cell;
     width: 100%;
     float:right;
+  }
+
+  .body_image_to_center{
+    display: table-cell;
+    width: 100%;
   }
