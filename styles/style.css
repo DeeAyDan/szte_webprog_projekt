@@ -19,7 +19,7 @@ body{
   margin-right: 10%;
 }
 .torzs p {
-  font-size: clamp(1.2 rem, 1rem + 5 vw, 1.9rem);
+  font-size: clamp(1.2 rem, calc(1 rem + 5 vw), 1.9 rem);
   text-align: justify;
   background-color: #141c5e;
   padding: 2% 4% 2% 4%;
@@ -31,7 +31,7 @@ body{
   background-color: #00004D;
   padding: 2px 15px;
   border-radius: 15px;
-  transition-duration: 0,5s;
+  transition-duration: 0.5s;
 }
 
 /*p::before {
@@ -60,7 +60,7 @@ body{
 }
    
 .text1 h1 {
-  font-size: clamp(5 rem, 4rem + 10 vw, 8rem);
+  font-size: clamp(5 rem, calc(4 rem + 10 vw), 8 rem);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -84,14 +84,24 @@ body{
 .table_header{
   background-color: #141c5e;
   padding: 5px;
+  font-size: 32px;
 }
 
 .table_odd{
   background-color: #2c315f;
   padding: 5px;
+  height: 100px;
+  font-size: 32px;
+
 }
 
 .table_even{
   background-color: #141c5e;
   padding: 5px;
+  height: 100px;
+  font-size: 32px;
+
+}
+#video {
+  width: 100%;
 }

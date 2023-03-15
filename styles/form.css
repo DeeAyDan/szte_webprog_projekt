@@ -1,3 +1,9 @@
+form {
+    font-size: 1.5em;
+}
+input, textarea {
+    font-size: 0.75em;
+}
 #form {
     max-width: 80%;
 }
@@ -6,7 +12,7 @@
     margin-top: 10vw;
 }
 
-#form_2 input[type=text] #form_2 input [type = email] #form_3 input [type=date]{
+.form_2 input[type=text], .form_2 input [type = email], #form_2 input[type=date]{
     font-size: 2vw;
-    size: 2vw;
+    
 }

@@ -17,7 +17,7 @@
     <title>R150 Form</title>
 </head>
 <body>
-  <div class="navbar">
+  <nav class="navbar">
     <button class="navbar-gomb"><a href="index.html">Főoldal</a></button>
     <button class="navbar-gomb"><a href="about.html">Rólunk</a></button>
     <div class="dropgomb">
@@ -32,38 +32,45 @@
     <div>
       <img class="profile_pic" src="img/form_logo_1.png" alt="Fenti logó" href="index.html">
     </div>
-  </div>
+  </nav>
 
-    <div id="form_1" id="form_container">
-        <div class="text1 ">
+    <header id="form_1">
+        <div class="text1">
             <h1>Űrlap a kedvenc vonatodról</h1>
         </div>
-    </div>
-    <div class="torzs">
+    </header>
+    <main class="torzs">
       <form method="POST">
-        <fieldset id="form_2">
+        <fieldset class="form_2">
           <legend>Személyes adatok</legend>
           <label>Név: <input type="text" name="username" required/></label> <br/>
           <label>Születési dátum: <input type="date" name="date-of-birth" min="1920-01-01"/></label> <br/>
           <label>E-mail: <input type="email" name="email" /></label> <br/>
-          Kedvenc mozdonyod: <br>
-          <label>Mozdony neve: <input type="text" name="loc-name" required></label><br>
+        </fieldset>
+      </form>
+      <br>
+      <form method="POST">
+        <fieldset class="form_2">
+          <legend>Kedvenc mozdonyod: </legend>
+          <label>Mozdony neve: <input type="text" name="loc-name" required></label><br><br>
           Mozdony hajtása:<br>
           <label for="mode-1">Dízeles</label>
           <input type="checkbox" id="mode-1" name="mode-1" value="diesel"/><br>
           <label for="mode-2">Elektromos</label>
           <input type="checkbox" id="mode-2" name="mode-2" value="electrical"/><br>
           <label for="mode-3">Egyéb</label>
-          <input type="checkbox" id="mode-3" name="mode-3" value="other"/> <br>
+          <input type="checkbox" id="mode-3" name="mode-3" value="other"/> <br><br>
           <label>Miért ez a kedvenced?</label><br>
-          <textarea name="feedback" rows="5" cols="50" maxlength="200"
-          placeholder="Ide írd a válaszod"></textarea> <br/> <br/>
+          <textarea name="feedback" rows="5" cols="30" maxlength="200"
+          placeholder="Ide írd a válaszod"></textarea> <br><br>
+          <label for="myfile">Ha tudsz, egy képet is csatolj!</label> <br>
+          <input type="file" id="myfile" name="myfile"> <br><br>
+    
           <input type="submit"/>
           <input type="reset">
         </fieldset>
-  
       </form>
-    </div>
+    </main>
     
     <footer id="footer" class="unselectable">
       <p class="footer-p">A projekt <a href="https://github.com/DeeAyDan/szte_webprog_projekt" target="_blank" id="footer_link"> Github </a> oldala</p> 
