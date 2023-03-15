@@ -34,3 +34,15 @@
     border-radius: 100%;
     border: solid 10px #151c5e;
   }
+
+  .img_float_left{
+    display: table-cell;
+    width: 100%;
+    float:left;
+  }
+
+  .img_float_right{
+    display: table-cell;
+    width: 100%;
+    float:right;
+  }

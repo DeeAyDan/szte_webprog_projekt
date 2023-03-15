@@ -34,16 +34,6 @@ body{
   transition-duration: 0.5s;
 }
 
-/*p::before {
-  content: '';
-  display: block;
-  position:absolute;
-  width: 10px;
-  height: 100%;
-  background-color: #00004D;
-  transform: skew(45deg);
-} Ezzel kezdeni kell valamit*/
-
 .container {
     display: grid;
     align-items: center; 
@@ -63,12 +53,6 @@ body{
   font-size: clamp(5 rem, calc(4 rem + 10 vw), 8 rem);
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-}
-
-.body_image_to_center{
-  display: table-cell;
-  width: 100%;
   text-align: center;
 }
 
@@ -105,3 +89,8 @@ body{
 #video {
   width: 100%;
 }
+
+.torzs .strong_list{
+  padding: 0;
+}
+
